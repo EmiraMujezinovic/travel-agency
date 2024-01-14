@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Emira Mujezinović" />
+    <title>Travel Agency</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/destination.css">
+    <link rel="stylesheet" href="styles/responsive.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+  </head>
+  <body>
+    <header id="header">
+      <section class="header-nav">
+        <div class="nav-logo">
+          <a href="index.html">Travel</a>
+        </div>
+        <nav class="nav-bar not-active">
+          <ul class="nav-links">
+            <div class="header-btn">
+              <i class="bx bx-x close-btn"></i>
+            </div>
+            <li class="link"><a href="/index.html">Home</a></li>
+            <li class="link"><a href="#destination">Destinations</a></li>
+            <li class="link"><a href="/index.html#gallery">Gallery</a></li>
+            <li class="link"><a href="/index.html#service">Services</a></li>
+            <li class="link">
+              <a href="/index.html#about"><span class="nowrap">About us</span></a>
+            </li>
+            <li class="link">
+              <a href="/index.html#contact"><span class="nowrap">Contact us</span></a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-btn">
+          <i class="bx bx-menu menu-btn"></i>
+        </div>
+      </section>
+
+      <section class="header-section-container">
+        <h4>LET US TAKE YOU TO YOUR</h4>
+        <h1>DREAM DESTINATION</h1>
+      </section>
+    </header>
+    <main>
+      <div class="title-wrap destination-title" id="destination">
+        <span class="small-title">Explore Beautiful Destinations</span>
+        <h2 class="large-title">Our Packages</h2>
+      </div>
+      <section class="search-bar-container">
+        <div class="search-bar">
+          <input type="text" id="searchInput" placeholder="Search...">
+          <input type="number" id="minPrice" placeholder="Min price">
+          <input type="number" id="maxPrice" placeholder="Max price">
+          <button id="searchBtn"><i class='bx bx-search'></i></button>
+          <button class="closeSearch"><i class='bx bx-x'></i></button>
+        </div>
+      </section>
+      <section class="packages-grid js-packages-grid">
+        <div class="package-card">
+        </div>        
+      </section>
+    </main>
+    <footer class="footer" id="footer">
+      <div class="footer-content">
+        <img class="footer-logo" src="images/logo-no-background.png" alt="logo" loading="lazy">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam eos illo blanditiis asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="icons">
+          <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
+          <a href="https://twitter.com/i/flow/login" target="_blank"><i class='bx bxl-twitter'></i></a>
+          <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram-alt' ></i></a>
+          <a href="https://ba.linkedin.com/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+        </div>
+      </div>
+      <div class="footer-content">
+        <h4>Quick Links</h4>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="#">Destinations</a></li>
+        <li><a href="/index.html#gallery">Gallery</a></li>
+        <li><a href="/index.html#service">Services</a></li>
+        <li><a href="/index.html#about">About Us</a></li>
+        <li><a href="/index.html#contact">Contact Us</a></li>
+      </div>
+      <div class="footer-content">
+        <h4>Payment</h4>
+        <li><a href="#">Visa</a></li>
+        <li><a href="#">MasterCard</a></li>
+        <li><a href="#">American Express</a></li>
+        <li><a href="#">PayPal</a></li>
+        <li><a href="#">Apple Pay</a></li>
+        <li><a href="#">Google Pay</a></li>
+      </div>
+      <div class="footer-content">
+        <h4>Help</h4>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Conditions</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">FAQs</a></li>
+      </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+    <script type="module" src="js/destination.js"></script>
+  </body>
+</html>

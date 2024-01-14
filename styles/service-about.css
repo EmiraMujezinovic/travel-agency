@@ -1,0 +1,89 @@
+/* SERVICES */
+
+.service {
+    display: grid;
+    margin: 20px;
+    margin-bottom: 100px;
+}
+
+.service-header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    letter-spacing: 2px;
+}
+
+.service-header .small-title {
+    text-transform: uppercase;
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+.service-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    background-color: #efe0e0;
+    border-radius: 8px;
+}
+
+.service-card-img {
+    width: 80px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.service-card-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.service-card-description {
+    text-align: center;
+    display: inline;
+    font-style: italic;
+}
+
+/* ABOUT */
+
+.about {
+    background: url(../images/aboutus.jpg) no-repeat left;
+    background-size: 60%;
+    background-color: var(--background-color);
+    overflow: hidden;
+    padding: 60px 0;
+    margin-bottom: 6rem;
+}
+
+.about-container {
+    width: 55%;
+    float: right;
+    background-color: #efe0e0;
+    padding: 60px;
+}
+
+.about-h2 {
+    margin-bottom: 30px;
+}
+
+.about-text {
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.keywords {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: var(--secondary-color);
+}
