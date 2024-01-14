@@ -38,7 +38,7 @@ document.getElementById("searchInput").addEventListener("keyup", function(event)
 // Function that filters packages based on user input
 
 function searchPackages() {
-  const searchInput = document.getElementById("searchInput").value;
+  const searchInput = document.getElementById("searchInput").value.toLowerCase();
   const minPrice = parseFloat(document.getElementById("minPrice").value) || 0;
   const maxPrice = parseFloat(document.getElementById("maxPrice").value) || Infinity;
 
