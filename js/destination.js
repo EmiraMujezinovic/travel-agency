@@ -15,7 +15,7 @@ packages.forEach((destination) => {
       <p class="package-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nisi nobis asperiores laudantium, earum pariatur.</p>
       <p class="package-days">Stay: ${destination.days} days</p>
       <p class="price">Price: $${destination.price}</p>
-      <a href="/index.html#contact" class="book-btn">Book Now</a>
+      <a href="index.html#contact" class="book-btn">Book Now</a>
     </div>
   </div>
   `;
